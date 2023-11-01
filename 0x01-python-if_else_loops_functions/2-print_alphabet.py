@@ -1,6 +1,4 @@
 #!/usr/bin/python3
 
-# alpthbet = ""
-# for i in "abcdefghijklmnopqrstuvwxyz":  # for i in range(97, 123) ==> chr(i)
-#     alpthbet += i
-print("{}".format("abcdefghijklmnopqrstuvwxyz"), end="")
+for i in range(97, 123):  # ==>for i in "abcdefghijklmnopqrstuvwxyz":
+    print("{}".format(chr(i)), end="")
