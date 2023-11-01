@@ -11,5 +11,5 @@ def fizzbuzz():
         else:
             pattern += str(i)
         pattern += " "
-    # pattern = pattern[:-1]  # remove last comma and space
-    print("{}".format(pattern))
+    pattern = pattern[:-1]  # remove last space
+    print("{}".format(pattern), end="")
